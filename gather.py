@@ -92,6 +92,8 @@ class Gather(InitBS):
             td_values = table_row.find_all('td')
 
             region_name = td.find('a').text
+            region_name_number = td.find('span').text.strip()
+            region_name_number = re.sub('(\(|\))', '', region_name_number)
 
             island_group = td_values[2].text.strip()
             region_center = td_values[3].text.strip()
@@ -112,6 +114,7 @@ class Gather(InitBS):
             lgu_str = ', '.join(lgu for lgu in lgus)
 
             region.append(region_name)
+            region.append(region_name_number)
             region.append(island_group)
             region.append(region_center)
             region.append(population)

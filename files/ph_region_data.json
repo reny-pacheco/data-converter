@@ -1,6 +1,7 @@
 {
     "1": {
         "Region Name": "National Capital Region",
+        "Region": "NCR",
         "Island Group": "Luzon",
         "Region Center": "Manila",
         "Population": 13894656,
@@ -9,6 +10,7 @@
     },
     "2": {
         "Region Name": "Cordillera Administrative Region",
+        "Region": "CAR",
         "Island Group": "Luzon",
         "Region Center": "Baguio",
         "Population": 1807738,
@@ -17,6 +19,7 @@
     },
     "3": {
         "Region Name": "Ilocos Region",
+        "Region": "Region I",
         "Island Group": "Luzon",
         "Region Center": "San Fernando(La Union)",
         "Population": 5220807,
@@ -25,6 +28,7 @@
     },
     "4": {
         "Region Name": "Cagayan Valley",
+        "Region": "Region II",
         "Island Group": "Luzon",
         "Region Center": "Tuguegarao",
         "Population": 3657741,
@@ -33,6 +37,7 @@
     },
     "5": {
         "Region Name": "Central Luzon",
+        "Region": "Region III",
         "Island Group": "Luzon",
         "Region Center": "San Fernando(Pampanga)",
         "Population": 12313718,
@@ -41,6 +46,7 @@
     },
     "6": {
         "Region Name": "Calabarzon",
+        "Region": "Region IV-A",
         "Island Group": "Luzon",
         "Region Center": "Calamba",
         "Population": 16057099,
@@ -49,6 +55,7 @@
     },
     "7": {
         "Region Name": "Mimaropa",
+        "Region": "Southwestern Tagalog Region",
         "Island Group": "Luzon",
         "Region Center": "Calapan",
         "Population": 3174859,
@@ -57,6 +64,7 @@
     },
     "8": {
         "Region Name": "Bicol Region",
+        "Region": "Region V",
         "Island Group": "Luzon",
         "Region Center": "Legazpi",
         "Population": 6139836,
@@ -65,6 +73,7 @@
     },
     "9": {
         "Region Name": "Western Visayas",
+        "Region": "Region VI",
         "Island Group": "Visayas",
         "Region Center": "Iloilo City",
         "Population": 7984899,
@@ -73,6 +82,7 @@
     },
     "10": {
         "Region Name": "Central Visayas",
+        "Region": "Region VII",
         "Island Group": "Visayas",
         "Region Center": "Cebu City",
         "Population": 7357649,
@@ -81,6 +91,7 @@
     },
     "11": {
         "Region Name": "Eastern Visayas",
+        "Region": "Region VIII",
         "Island Group": "Visayas",
         "Region Center": "Tacloban",
         "Population": 4792337,
@@ -89,6 +100,7 @@
     },
     "12": {
         "Region Name": "Zamboanga Peninsula",
+        "Region": "Region IX",
         "Island Group": "Mindanao",
         "Region Center": "Pagadian",
         "Population": 3782981,
@@ -97,6 +109,7 @@
     },
     "13": {
         "Region Name": "Northern Mindanao",
+        "Region": "Region X",
         "Island Group": "Mindanao",
         "Region Center": "Cagayan de Oro",
         "Population": 5017057,
@@ -105,6 +118,7 @@
     },
     "14": {
         "Region Name": "Davao Region",
+        "Region": "Region XI",
         "Island Group": "Mindanao",
         "Region Center": "Davao City",
         "Population": 5290869,
@@ -113,6 +127,7 @@
     },
     "15": {
         "Region Name": "Soccsksargen",
+        "Region": "Region XII",
         "Island Group": "Mindanao",
         "Region Center": "Koronadal",
         "Population": 4919936,
@@ -121,6 +136,7 @@
     },
     "16": {
         "Region Name": "Caraga",
+        "Region": "Region XIII",
         "Island Group": "Mindanao",
         "Region Center": "Butuan",
         "Population": 2753109,
@@ -129,6 +145,7 @@
     },
     "17": {
         "Region Name": "Bangsamoro",
+        "Region": "BARMM",
         "Island Group": "Mindanao",
         "Region Center": "Cotabato City",
         "Population": 4183316,

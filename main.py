@@ -11,6 +11,7 @@ class MyScraperExcel(SaveToExcel):
 
     def __call__(self):
         self.save(headers=['Region Name',
+                           'Region',
                            'Island Group',
                            'Region Center',
                            'Population',
@@ -53,6 +54,7 @@ class MyScraperJson(SaveAsJson):
 
     def __call__(self):
         self.save(key=['Region Name',
+                       'Region',
                        'Island Group',
                        'Region Center',
                        'Population',
