@@ -1,0 +1,138 @@
+{
+    "1": {
+        "Region Name": "National Capital Region",
+        "Island Group": "Luzon",
+        "Region Center": "Manila",
+        "Population": 13894656,
+        "Land Area": "619.57 km squared",
+        "Local Goverments": "Caloocan, Las Pi\u00f1as, Makati, Malabon, Mandaluyong, Manila, Marikina, Muntinlupa, Navotas, Para\u00f1aque, Pasay, Pasig, Pateros, Quezon City, San Juan, Taguig, Valenzuela"
+    },
+    "2": {
+        "Region Name": "Cordillera Administrative Region",
+        "Island Group": "Luzon",
+        "Region Center": "Baguio",
+        "Population": 1807738,
+        "Land Area": "19,422.03 km squared",
+        "Local Goverments": "Abra, Apayao, Baguio, Benguet, Ifugao, Kalinga, Mountain Province"
+    },
+    "3": {
+        "Region Name": "Ilocos Region",
+        "Island Group": "Luzon",
+        "Region Center": "San Fernando(La Union)",
+        "Population": 5220807,
+        "Land Area": "13,012.60 km squared",
+        "Local Goverments": "Dagupan, Ilocos Norte, Ilocos Sur, La Union, Pangasinan"
+    },
+    "4": {
+        "Region Name": "Cagayan Valley",
+        "Island Group": "Luzon",
+        "Region Center": "Tuguegarao",
+        "Population": 3657741,
+        "Land Area": "28,228.83 km squared",
+        "Local Goverments": "Batanes, Cagayan, Isabela, Nueva Vizcaya, Quirino, Santiago"
+    },
+    "5": {
+        "Region Name": "Central Luzon",
+        "Island Group": "Luzon",
+        "Region Center": "San Fernando(Pampanga)",
+        "Population": 12313718,
+        "Land Area": "22,014.63 km squared",
+        "Local Goverments": "Angeles City, Aurora, Bataan, Bulacan, Nueva Ecija, Olongapo, Pampanga, Tarlac, Zambales"
+    },
+    "6": {
+        "Region Name": "Calabarzon",
+        "Island Group": "Luzon",
+        "Region Center": "Calamba",
+        "Population": 16057099,
+        "Land Area": "16,873.31 km squared",
+        "Local Goverments": "Batangas, Cavite, Laguna, Lucena, Quezon, Rizal"
+    },
+    "7": {
+        "Region Name": "Mimaropa",
+        "Island Group": "Luzon",
+        "Region Center": "Calapan",
+        "Population": 3174859,
+        "Land Area": "29,620.90 km squared",
+        "Local Goverments": "Marinduque, Occidental Mindoro, Oriental Mindoro, Palawan, Puerto Princesa, Romblon"
+    },
+    "8": {
+        "Region Name": "Bicol Region",
+        "Island Group": "Luzon",
+        "Region Center": "Legazpi",
+        "Population": 6139836,
+        "Land Area": "18,155.82 km squared",
+        "Local Goverments": "Albay, Camarines Norte, Camarines Sur, Catanduanes, Masbate, Naga, Sorsogon"
+    },
+    "9": {
+        "Region Name": "Western Visayas",
+        "Island Group": "Visayas",
+        "Region Center": "Iloilo City",
+        "Population": 7984899,
+        "Land Area": "20,794.18 km squared",
+        "Local Goverments": "Aklan, Antique, Bacolod, Capiz, Guimaras, Iloilo, Iloilo City, Negros Occidental"
+    },
+    "10": {
+        "Region Name": "Central Visayas",
+        "Island Group": "Visayas",
+        "Region Center": "Cebu City",
+        "Population": 7357649,
+        "Land Area": "15,487.69 km squared",
+        "Local Goverments": "Bohol, Cebu, Cebu City, Lapu-Lapu, Mandaue, Negros Oriental, Siquijor"
+    },
+    "11": {
+        "Region Name": "Eastern Visayas",
+        "Island Group": "Visayas",
+        "Region Center": "Tacloban",
+        "Population": 4792337,
+        "Land Area": "23,251.10 km squared",
+        "Local Goverments": "Biliran, Eastern Samar, Leyte, Northern Samar, Ormoc, Samar, Southern Leyte, Tacloban"
+    },
+    "12": {
+        "Region Name": "Zamboanga Peninsula",
+        "Island Group": "Mindanao",
+        "Region Center": "Pagadian",
+        "Population": 3782981,
+        "Land Area": "17,056.73 km squared",
+        "Local Goverments": "Isabela City, Zamboanga City, Zamboanga del Norte, Zamboanga del Sur, Zamboanga Sibugay"
+    },
+    "13": {
+        "Region Name": "Northern Mindanao",
+        "Island Group": "Mindanao",
+        "Region Center": "Cagayan de Oro",
+        "Population": 5017057,
+        "Land Area": "20,496.02 km squared",
+        "Local Goverments": "Bukidnon, Cagayan de Oro, Camiguin, Iligan, Lanao del Norte, Misamis Occidental, Misamis Oriental"
+    },
+    "14": {
+        "Region Name": "Davao Region",
+        "Island Group": "Mindanao",
+        "Region Center": "Davao City",
+        "Population": 5290869,
+        "Land Area": "20,357.42 km squared",
+        "Local Goverments": "Davao City, Davao de Oro, Davao del Norte, Davao del Sur, Davao Occidental, Davao Oriental"
+    },
+    "15": {
+        "Region Name": "Soccsksargen",
+        "Island Group": "Mindanao",
+        "Region Center": "Koronadal",
+        "Population": 4919936,
+        "Land Area": "22,513.30 km squared",
+        "Local Goverments": "Cotabato, General Santos, Sarangani, South Cotabato, Sultan Kudarat"
+    },
+    "16": {
+        "Region Name": "Caraga",
+        "Island Group": "Mindanao",
+        "Region Center": "Butuan",
+        "Population": 2753109,
+        "Land Area": "21,478.35 km squared",
+        "Local Goverments": "Agusan del Norte, Agusan del Sur, Butuan, Dinagat Islands, Surigao del Norte, Surigao del Sur"
+    },
+    "17": {
+        "Region Name": "Bangsamoro",
+        "Island Group": "Mindanao",
+        "Region Center": "Cotabato City",
+        "Population": 4183316,
+        "Land Area": "12,535.79 km squared",
+        "Local Goverments": "Basilan(excluding Isabela City), Cotabato City, Lanao del Sur, Maguindanao, Sulu, Tawi-Tawi, 63 barangays in Cotabato"
+    }
+}

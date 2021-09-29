@@ -2,6 +2,7 @@ from openpyxl import Workbook
 from gather import Gather
 from time import sleep
 import logging
+import json
 import csv
 import os
 
@@ -43,7 +44,6 @@ class SaveToExcel(Gather):
         # If data is not None, use and save the data specified by the user
         data = data if data is not None else self.get_data()
         filename = f'{self.filename}.xlsx'
-
         sleep(2)
 
         # include the source url to the file
@@ -63,7 +63,6 @@ class SaveToExcel(Gather):
                 page.append(value)
 
             wb.save('./files/' + filename)
-
             logging.info(f'[+] Successfully saved {filename}')
 
         except TypeError:
@@ -81,6 +80,7 @@ class SaveAsCsv(Gather):
 
     def save(self, data=None, headers=None):
         filename = f'{self.filename}.csv'
+        data = data if data is not None else self.get_data()
         create_files_folder()
 
         csv_file = open('./files/' + filename, 'w', newline='')
@@ -89,15 +89,53 @@ class SaveAsCsv(Gather):
         if headers is not None:
             csv_writer.writerow(headers)
 
-        data = data if data is not None else self.get_data()
-
         try:
             for values in data:
                 csv_writer.writerow(values)
 
             csv_file.close()
-
             logging.info(f'[+] Successfully saved {filename}')
 
         except TypeError:
             logging.error(f'[x] Error while saving [ {filename} ], Please check the values of your data')
+
+
+class SaveAsJson(Gather):
+    def __init__(self, filename, url):
+        self.filename = filename
+        super().__init__(url)
+
+    def save(self, data=None, key=None):
+        filename = f'{self.filename}.json'
+        data_dict = dict()
+        data = data if data is not None else self.get_data()
+        keys = []
+
+        if key is not None:
+            key_len = len(key)
+
+            for i in range(0, key_len):
+                keys.append(key[i])
+
+        else:
+            raise Exception("Please provide a valid keys")
+
+        try:
+            for val_i, val in enumerate(data):
+                id_ = val_i + 1
+                data_dict.setdefault(id_, {})
+
+                for i in range(key_len):
+                    data_dict[id_].setdefault(keys[i], val[i])
+
+            json_data = json.dumps(data_dict, indent=4)
+            create_files_folder()
+
+            with open(f'./files/' + filename, 'w', encoding='utf-8') as json_file:
+                json_file.write(json_data)
+
+            logging.info(f'[+] Successfully saved {filename}')
+
+        except IOError:
+            logging.error(f'[x] Error while saving [ {filename} ], Please check the values of your data')
+
