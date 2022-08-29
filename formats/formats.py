@@ -13,7 +13,7 @@ logging.basicConfig(format="%(asctime)s - %(message)s", level=logging.DEBUG)
 
 def Csv(filename: str, headers: List[str] = None):
     """
-    Convert data to excel file.
+    Convert data to csv file.
 
     :param filename: Name of the file
     :param headers: Column name

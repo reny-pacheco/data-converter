@@ -8,11 +8,11 @@ Converts your 2d array into csv, json, and excel file.
 
 1. Clone the repo.
 
-- `git clone https://github.com/reny-pacheco/web-scraper.git`
+- `git clone https://github.com/reny-pacheco/data-converter.git`
 
 2. Go to projects folder.
 
-- `cd web-scraper`
+- `cd data-converter`
 
 3. Create virtual environment. (make sure virtualenv is installed)
 
