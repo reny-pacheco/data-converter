@@ -1,10 +1,7 @@
+from examples.ph_regions import get_ph_regions
+from formats.formats import Csv, Excel, Json
 
-from convert import Convert
-from beatiful_soup import BS
-
-from examples.ph_regions import get_data
-
-keys = keys = [
+keys = [
     "Region Name",
     "Region",
     "Island Group",
@@ -15,12 +12,11 @@ keys = keys = [
 ]
 
 
-@Convert("new_ph_data.json",keys=keys)
-@Convert("new_ph_data.xlsx", headers=keys, sheet_name="Philippine Regions")
+@Csv("ph_regions", headers=keys)
+@Json("ph_regions", keys=keys)
+@Excel("ph_regions", headers=keys, sheet_name="Regions of the Philippines")
 def save_data():
-    url = "https://en.wikipedia.org/wiki/Regions_of_the_Philippines"
-    soup = BS(url).get_soup()
-    return get_data(soup)
+    return get_ph_regions()
 
 
 if __name__ == "__main__":

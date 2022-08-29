@@ -1,9 +1,13 @@
 import re
 import logging
+from beatiful_soup import BS
 
 logging.basicConfig(format="%(asctime)s - %(message)s", level=logging.DEBUG)
 
-def get_data(soup):
+def get_ph_regions():
+    url = "https://en.wikipedia.org/wiki/Regions_of_the_Philippines"
+    soup = BS(url).get_soup()
+
     if soup is None:
         logging.error(f"[-] Error occured, File not saved.")
         return None
