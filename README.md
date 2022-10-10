@@ -28,7 +28,7 @@ Converts your 2d array into csv, json, and excel file.
 
 - `pip install -r requirements.txt`
 
-### Sample data is from [Regions of the Philippines wikipedia page](https://en.wikipedia.org/wiki/Regions_of_the_Philippines "Regions of the Philippines")
+### Sample data is from [Regions of the Philippines wikipedia page](https://en.wikipedia.org/wiki/Regions_of_the_Philippines 'Regions of the Philippines')
 
 After you installed all the requirements, run `python app.py`
 
@@ -36,7 +36,7 @@ It will save the data as csv, json, and excel and store them inside `files` fold
 
 ### Saving in a single file format
 
-To save data as json, decorate the `get_data` function with `@json` and add the required arguments. Then run the `app.py` using the command `python app.py`
+To save data as json, decorate the `get_data` function with `@Json` and add the required arguments. Then run the `app.py` using the command `python app.py`
 
 ### Example
 
@@ -75,4 +75,4 @@ if __name__ == "__main__":
 
 After you run the file, there is now `employees.xlsx` inside files folder with contents similar to the image below.
 
-![Alt](/images/employees.png "Title")
+![Alt](/images/employees.png 'Title')
