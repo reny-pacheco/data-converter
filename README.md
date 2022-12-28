@@ -41,7 +41,7 @@ To save data as json, decorate the `get_data` function with `@Json` and add the 
 ### Example
 
 ```python
-@Json("ph_regions", keys=['<your_keys>'])
+@Json("ph_regions", keys=['Name', 'Age', 'Location'])
 def save_data():
     return get_ph_regions()
 ```
