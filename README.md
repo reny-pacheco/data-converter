@@ -36,7 +36,7 @@ It will save the data as csv, json, and excel and store them inside `files` fold
 
 ### Saving in a single file format
 
-To save data as json, decorate the `get_data` function with `@Json` and add the required arguments. Then run the `app.py` using the command `python app.py`
+To save data as json, decorate the `save_data` function with `@Json` and add the required arguments. Then run the `app.py` using the command `python app.py`
 
 ### Example
 
